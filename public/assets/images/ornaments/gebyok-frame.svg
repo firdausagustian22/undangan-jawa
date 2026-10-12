@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="frameGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEDAA2" />
+      <stop offset="50%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#8C6826" />
+    </linearGradient>
+    <linearGradient id="frameWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C20" />
+      <stop offset="100%" stop-color="#2F1B14" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bingkai Ukiran Gebyok Jepara / Pintu Gerbang Pelaminan -->
+  <!-- Outer Border Frame -->
+  <rect x="15" y="15" width="470" height="470" rx="12" fill="none" stroke="url(#frameWood)" stroke-width="18" />
+  <rect x="24" y="24" width="452" height="452" rx="8" fill="none" stroke="url(#frameGold)" stroke-width="3" />
+  <rect x="36" y="36" width="428" height="428" rx="6" fill="none" stroke="url(#frameGold)" stroke-width="1.5" stroke-dasharray="8,4" />
+
+  <!-- Four Ornamental Corners (Ukiran Sudut Lung-Lungan) -->
+  <!-- Top Left Corner -->
+  <g transform="translate(30, 30)">
+    <path d="M 0,0 L 50,0 C 40,25 25,40 0,50 Z" fill="url(#frameGold)" />
+    <circle cx="18" cy="18" r="4" fill="#2F1B14" />
+  </g>
+  <!-- Top Right Corner -->
+  <g transform="translate(470, 30) scale(-1, 1)">
+    <path d="M 0,0 L 50,0 C 40,25 25,40 0,50 Z" fill="url(#frameGold)" />
+    <circle cx="18" cy="18" r="4" fill="#2F1B14" />
+  </g>
+  <!-- Bottom Left Corner -->
+  <g transform="translate(30, 470) scale(1, -1)">
+    <path d="M 0,0 L 50,0 C 40,25 25,40 0,50 Z" fill="url(#frameGold)" />
+    <circle cx="18" cy="18" r="4" fill="#2F1B14" />
+  </g>
+  <!-- Bottom Right Corner -->
+  <g transform="translate(470, 470) scale(-1, -1)">
+    <path d="M 0,0 L 50,0 C 40,25 25,40 0,50 Z" fill="url(#frameGold)" />
+    <circle cx="18" cy="18" r="4" fill="#2F1B14" />
+  </g>
+
+  <!-- Top Center Crest (Mahkota Ukiran Gebyok) -->
+  <g transform="translate(250, 24)">
+    <path d="M -40,0 Q 0,-18 40,0 Q 0,8 -40,0 Z" fill="url(#frameGold)" />
+    <circle cx="0" cy="-4" r="5" fill="#2F1B14" stroke="url(#frameGold)" stroke-width="1.5" />
+  </g>
+  <!-- Bottom Center Crest -->
+  <g transform="translate(250, 476)">
+    <path d="M -40,0 Q 0,18 40,0 Q 0,-8 -40,0 Z" fill="url(#frameGold)" />
+    <circle cx="0" cy="4" r="5" fill="#2F1B14" stroke="url(#frameGold)" stroke-width="1.5" />
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wayangGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E4BE" />
+      <stop offset="50%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#846022" />
+    </linearGradient>
+  </defs>
+
+  <!-- Siluet Wayang Kulit Pasangan Sejati: Raden Kamajaya & Dewi Kamaratih (Simbol Kasih Abadi) -->
+
+  <!-- Kamajaya (Kiri - Mempelai Kakung) -->
+  <g transform="translate(40, 20)">
+    <!-- Mahkota Makuta & Jamang -->
+    <path d="M 120,40 C 115,20 95,15 85,25 C 75,35 80,50 85,60 C 95,65 110,60 120,40 Z" fill="url(#wayangGold)" />
+    <!-- Garudha Mungkur & Praba Punggung -->
+    <path d="M 60,60 C 40,80 35,130 50,160 C 65,140 70,100 65,80 Z" fill="url(#wayangGold)" opacity="0.85" />
+    <!-- Profil Wajah Luruh / Alus (Hidung Mancung, Mata Liyepan) -->
+    <path d="M 95,45 C 98,55 105,62 108,70 C 105,75 98,75 92,72 C 88,80 95,85 100,90 C 90,95 85,90 82,85 C 80,95 72,105 78,115" 
+          fill="none" stroke="url(#wayangGold)" stroke-width="2.5" />
+    <!-- Gelang Bahu (Kelat Bahu) & Lengan -->
+    <path d="M 90,110 C 110,120 125,145 130,170 C 118,175 105,155 95,140 Z" fill="url(#wayangGold)" />
+    <!-- Tangan Menyembah / Nyempurit -->
+    <path d="M 130,170 C 145,185 150,205 140,215 C 132,205 125,190 125,180" fill="none" stroke="url(#wayangGold)" stroke-width="2" />
+    <!-- Kain Kampuh Batik & Dodot Keraton -->
+    <path d="M 75,130 C 90,150 95,190 90,240 C 65,220 55,180 60,150 Z" fill="url(#wayangGold)" opacity="0.9" />
+    <!-- Celana Cinde & Uncal Kencana -->
+    <path d="M 85,240 L 95,290 L 80,300 L 70,250 Z" fill="url(#wayangGold)" />
+  </g>
+
+  <!-- Kamaratih (Kanan - Mempelai Putri) -->
+  <g transform="translate(190, 30)">
+    <!-- Sanggul Gelung Kundai & Cunduk Mentul -->
+    <path d="M 50,45 C 60,25 80,20 90,30 C 100,40 95,55 90,65 C 80,70 65,65 55,45 Z" fill="url(#wayangGold)" />
+    <!-- Ronce Bunga Melati di Rambut -->
+    <circle cx="95" cy="40" r="3" fill="#FFF" />
+    <circle cx="102" cy="48" r="3" fill="#FFF" />
+    <circle cx="108" cy="58" r="3" fill="#FFF" />
+    <!-- Profil Wajah Luruh Anggun -->
+    <path d="M 75,50 C 72,60 65,66 62,74 C 65,79 72,79 78,76 C 82,84 75,89 70,94 C 80,99 85,94 88,89 C 90,99 98,109 92,119" 
+          fill="none" stroke="url(#wayangGold)" stroke-width="2.5" />
+    <!-- Kemben & Perhiasan Kalung Bersusun -->
+    <path d="M 80,115 C 60,125 45,150 40,175 C 52,180 65,160 75,145 Z" fill="url(#wayangGold)" />
+    <!-- Tangan Anggun Ngrayung -->
+    <path d="M 40,175 C 25,190 20,210 30,220 C 38,210 45,195 45,185" fill="none" stroke="url(#wayangGold)" stroke-width="2" />
+    <!-- Kain Jarik Parang Kusumo / Sidomukti -->
+    <path d="M 95,135 C 80,155 75,195 80,245 C 105,225 115,185 110,155 Z" fill="url(#wayangGold)" opacity="0.9" />
+    <path d="M 85,245 L 75,295 L 90,305 L 100,255 Z" fill="url(#wayangGold)" />
+  </g>
+
+  <!-- Jantung Hati Penyatuan Kasih di Tengah -->
+  <circle cx="200" cy="180" r="18" fill="none" stroke="url(#wayangGold)" stroke-width="1.5" stroke-dasharray="3,3" />
+  <circle cx="200" cy="180" r="6" fill="url(#wayangGold)" />
+</svg>

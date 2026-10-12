@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEDAA2" />
+      <stop offset="50%" stop-color="#C6A15B" />
+      <stop offset="100%" stop-color="#8C6826" />
+    </linearGradient>
+    <linearGradient id="darkBrownGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A2C20" />
+      <stop offset="100%" stop-color="#2F1B14" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Outer Aura / Halo -->
+  <path d="M 200,20 Q 340,160 360,340 C 370,440 330,520 200,560 C 70,520 30,440 40,340 Q 60,160 200,20 Z" 
+        fill="url(#darkBrownGrad)" stroke="url(#goldGrad)" stroke-width="4" opacity="0.95" />
+
+  <!-- Inner Decorative Border -->
+  <path d="M 200,35 Q 325,165 345,335 C 355,425 320,500 200,540 C 80,500 45,425 55,335 Q 75,165 200,35 Z" 
+        fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="6,3" />
+
+  <!-- Pohon Hayat (Tree of Life) Trunk & Base -->
+  <!-- Base Pedestal (Gapura / Gerbang Keraton) -->
+  <rect x="150" y="460" width="100" height="70" rx="6" fill="#2F1B14" stroke="url(#goldGrad)" stroke-width="2.5" />
+  <path d="M 160,460 L 200,420 L 240,460 Z" fill="url(#goldGrad)" />
+  <!-- Gate Doors -->
+  <path d="M 165,475 Q 180,465 195,475 L 195,525 L 165,525 Z" fill="#4A2C20" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <path d="M 205,475 Q 220,465 235,475 L 235,525 L 205,525 Z" fill="#4A2C20" stroke="url(#goldGrad)" stroke-width="1.5" />
+  <!-- Gate Filigree -->
+  <circle cx="180" cy="500" r="3" fill="url(#goldGrad)" />
+  <circle cx="220" cy="500" r="3" fill="url(#goldGrad)" />
+
+  <!-- Central Trunk -->
+  <path d="M 195,420 Q 192,280 197,140 L 203,140 Q 208,280 205,420 Z" fill="url(#goldGrad)" />
+
+  <!-- Tree Branches & Foliage (Sulur-Sulur Praba Tradisional) -->
+  <!-- Tier 1 Branches (Lower) -->
+  <path d="M 196,380 C 140,360 90,390 80,440 C 110,430 150,420 196,400" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 204,380 C 260,360 310,390 320,440 C 290,430 250,420 204,400" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Tier 2 Branches (Middle) -->
+  <path d="M 197,310 C 130,280 85,310 75,360 C 110,350 160,340 197,330" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+  <path d="M 203,310 C 270,280 315,310 325,360 C 290,350 240,340 203,330" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Tier 3 Branches (Upper) -->
+  <path d="M 198,240 C 140,200 110,230 95,270 C 130,260 170,250 198,255" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 202,240 C 260,200 290,230 305,270 C 270,260 230,250 202,255" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Tier 4 Top Canopy -->
+  <path d="M 199,170 C 160,130 140,150 130,190 C 155,180 180,180 199,185" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+  <path d="M 201,170 C 240,130 260,150 270,190 C 245,180 220,180 201,185" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Golden Crown Peak (Puncak Gunungan) -->
+  <circle cx="200" cy="55" r="7" fill="url(#goldGrad)" filter="url(#glow)" />
+  <path d="M 200,20 L 205,45 L 195,45 Z" fill="url(#goldGrad)" />
+  <circle cx="200" cy="80" r="4" fill="url(#goldGrad)" />
+
+  <!-- Stylized Birds / Garuda Wings (Left & Right Motif) -->
+  <!-- Left Wing Motif -->
+  <path d="M 150,320 Q 110,300 90,330 Q 120,335 150,335 Z" fill="url(#goldGrad)" opacity="0.8" />
+  <path d="M 150,260 Q 120,240 105,265 Q 130,275 150,275 Z" fill="url(#goldGrad)" opacity="0.8" />
+  <!-- Right Wing Motif -->
+  <path d="M 250,320 Q 290,300 310,330 Q 280,335 250,335 Z" fill="url(#goldGrad)" opacity="0.8" />
+  <path d="M 250,260 Q 280,240 295,265 Q 270,275 250,275 Z" fill="url(#goldGrad)" opacity="0.8" />
+
+  <!-- Intricate Flame / Praba Ornaments around Rim -->
+  <g fill="url(#goldGrad)" opacity="0.85">
+    <circle cx="90" cy="180" r="3" />
+    <circle cx="120" cy="130" r="3" />
+    <circle cx="160" cy="85" r="3" />
+    <circle cx="240" cy="85" r="3" />
+    <circle cx="280" cy="130" r="3" />
+    <circle cx="310" cy="180" r="3" />
+    <circle cx="335" cy="240" r="3" />
+    <circle cx="65" cy="240" r="3" />
+  </g>
+</svg>
